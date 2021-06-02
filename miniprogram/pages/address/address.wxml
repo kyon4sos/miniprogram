@@ -1,0 +1,8 @@
+<!--miniprogram/pages/address.wxml-->
+<nav-bar title="个人中心" back="true" title='个人中心' bg="{{$.barColor}}" color="#fff"></nav-bar>
+<view>
+ <view class="address-page">
+  <text class="tip">您还没有地址，请添加</text>
+  <van-button icon="plus" color="#ffc508" size="large">添加配送地址</van-button>
+ </view>
+</view>

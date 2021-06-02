@@ -1,0 +1,54 @@
+<!--miniprogram/pages/home/home.wxml-->
+<nav-bar bg="{{$.barColor}}" color="#fff">
+  <view class="nav-bar__inner">
+    <input class="search" placeholder-class="phcolor" style="transform: translateY({{top}}px);width:{{width}}%"
+      placeholder="请输入搜索内容"></input>
+  </view>
+</nav-bar>
+<modal bind:click="onModalClick" visible="{{visible}}"></modal>
+<swiper imgs="{{imgs}}"></swiper>
+<view style="height:100vh"></view>
+<view class="home-page">
+  <view class="main">
+    <view>
+      <view class="user_wrap">
+        <van-image round width="100rpx" height="100rpx" src="{{$.userInfo.avatarUrl}}" />
+        <view class="user-info">
+          <view>{{$.userInfo.nickName}}</view>
+          <view>{{$.userInfo.point||0}}积分</view>
+        </view>
+      </view>
+    </view>
+    <view class="card way">
+      <view class="nav-item">
+        <text>点餐</text>
+        <text class="slogan">天天优惠</text>
+        <image class="icon"
+          src="https://6e6f-note-9gpvzagz1944b75f-1258879474.tcb.qcloud.la/cat1.png?sign=55f9f6d4e77c92d19e082336221f20a8&t=1622454965">
+        </image>
+      </view>
+      <view class="nav-item">
+        <text>点餐</text>
+        <text class="slogan">天天优惠</text>
+        <image class="icon"
+          src="https://6e6f-note-9gpvzagz1944b75f-1258879474.tcb.qcloud.la/cat1.png?sign=55f9f6d4e77c92d19e082336221f20a8&t=1622454965">
+        </image>
+      </view>
+      <view class="nav-item">
+        <text>外卖</text>
+        <text class="slogan">天天折扣</text>
+        <image class="icon"
+          src="https://6e6f-note-9gpvzagz1944b75f-1258879474.tcb.qcloud.la/cat1.png?sign=55f9f6d4e77c92d19e082336221f20a8&t=1622454965">
+        </image>
+      </view>
+    </view>
+    <view class="card change-color">
+      <text class="lab">改变导航栏颜色</text>
+      <van-slider value="50" 
+      min="0" max="255"
+
+      bind:change="onChange" />
+    </view>
+  </view>
+  <!-- <van-button bind:click="onClick">点击</van-button> -->
+</view>

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/center/center",
+		"pages/index-with-data/index",
+    "pages/logs/logs",
+    "pages/address/address",
+    "pages/home/home",
+    "pages/userAgreement/userAgreement"
+  ],
+  "tabBar": {
+    "selectedColor": "#ffc508",
+    "color": "#000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的",
+        "iconPath": "./images/center.png",
+        "selectedIconPath": "./images/center.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "modal":"/components/modal/index",
+    "nav-bar": "/components/navbar-plus/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "navBar": "miniprograms-navigation-bar",
+    "van-search": "@vant/weapp/search/index",
+    "van-slider": "@vant/weapp/slider/index",
+    "mp-icon": "weui-miniprogram/icon/icon"
+  },
+    "useExtendedLib": {
+      "weui": true
+    }
+  
+}

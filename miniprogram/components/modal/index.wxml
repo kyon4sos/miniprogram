@@ -1,0 +1,8 @@
+<!--components/modal/index.wxml-->
+<view class="modal mask" wx:if="{{_display}}">
+  <image class="img"
+  bindtap="onClick"
+    src="https://6e6f-note-9gpvzagz1944b75f-1258879474.tcb.qcloud.la/ad1.jpg?sign=ec268cbeadfb4946a22702402fb99c69&t=1622534270">
+  </image>
+  <icon type="cancel" color="#eee" bindtap="onClose"></icon>
+</view>

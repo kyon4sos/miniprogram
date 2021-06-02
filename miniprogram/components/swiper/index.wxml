@@ -1,0 +1,12 @@
+<!--components/swiper.wxml-->
+<view class="swiper">
+  <view class="swiper-wrapper"
+    style="transform: translateX({{current*-translateX}}%);transition: all {{druation}}s ease-in;">
+    <block wx:for="{{imgs}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+      <view class="swipper-item" bindtap="handleSwitch">
+        <!-- <view class="title">{{item.title}}{{idx}}</view> -->
+        <image class="img" src="{{item.src}}"></image>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,134 @@
+/* miniprogram/pages/home/home.wxss */
+.home-page {
+  width: 100%;
+}
+
+.nav-bar__inner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+
+.search {
+  background-color: #eeeeee;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 24rpx;
+  text-indent: 8rpx;
+  padding-left: 8rpx;
+  transition: all 0.5s ease-in;
+}
+
+.phcolor {
+  color: #b4b3b3;
+}
+
+/* .icon {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 24rpx;
+} */
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #333333;
+}
+
+.icon-item .icon {
+  margin-bottom: 18rpx;
+}
+
+.nav {
+  width: 100%;
+  padding: 30rpx 8rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  top: 280px;
+  padding: 32rpx 20rpx;
+  background-color: #eeeeee;
+  border-top-right-radius: 30rpx;
+  border-top-left-radius: 30rpx;
+}
+
+.user_wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user-info {
+  padding-left: 30rpx;
+  font-size: 10rpx;
+}
+
+.user-info view:nth-child(1) {
+  font-size: 34rpx;
+}
+
+.user-info view:nth-child(2) {
+  font-size: 24rpx;
+  color: #636262;
+}
+
+.card {
+  height: 300rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+
+.card .slogan {
+  font-size: 24rpx;
+  color: #636262;
+  margin-top: 10rpx;
+}
+
+.card .nav-item:nth-last-child(1) {
+  border: none;
+}
+
+.card .nav-item {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 40rpx;
+  border-right-color: #bdbdbd;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.card .nav-item .icon {
+  margin-top: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.change-color {
+  display: flex;
+  flex-direction: column;
+}
+.change-color .lab {
+  margin-bottom: 40rpx;
+  padding: 18rpx 0;
+  border-bottom: 1px solid #eeeeee;
+}

@@ -1,0 +1,9 @@
+<!--components/navbar-plus/navbar-plus.wxml-->
+<view class="nav-bar" style="background-color:{{bg}};height:{{height}}px">
+  <view class="nav-bar__wrap"
+    style="padding-left:{{paddingLeft}}px;padding-right:{{paddingLeft}}px;padding-top:{{top}}px;height:{{height}}px;background-color:{{bg}}">
+    <mp-icon wx:if="{{back}}" icon="back" color="{{color}}" size="{{12}}" bindtap="onBack"></mp-icon>
+    <text wx:if="{{title}}" style="color:{{color}}">{{title}}</text>
+    <slot></slot>
+  </view>
+</view>
