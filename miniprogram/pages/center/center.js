@@ -6,7 +6,7 @@ create.Page(store,{
   use: [
     'isLogin',
     'userInfo',
-    'hasUserInfo',
+    'barColor',
     'canIUse'
   ],
   data: {

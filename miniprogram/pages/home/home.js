@@ -65,10 +65,8 @@ create.Page(store, {
       let color =[]
       for(let i =0;i<3;i++) {
         let c =  Math.random()*255
-        console.log(c);
         color.push(c)
       }
-      console.log(`rgb(${color.toString()})`);
       this.store.data.barColor= `rgb(${color.toString()})`
   } ,
    /**
