@@ -37,7 +37,7 @@ create.Page(store,{
       })
       let res = await func('register', userInfo)
       this.initUserInfo(res.result)
-    } catch (error) {
+    } catch (err) {
       console.log(err);
       wx.showToast({
         title: '请允许授权',
