@@ -1,12 +1,14 @@
 # wechat-mini-program
  微信小程序 云开发，全局状态管理，自定义导航栏组件
 
-<img src="https://www.hualigs.cn/image/60b70211f05cb.jpg" style="zoom:33%;" />
 
 
 
-<img src="https://www.hualigs.cn/image/60b70211aee6b.jpg" style="zoom:33%;" />
 
-<img src="https://www.hualigs.cn/image/60b7033739a2f.jpg" style="zoom:33%;" />
+<img src="http://qw5zaufiu.hn-bkt.clouddn.com/68747470733a2f2f7777772e6875616c6967732e636e2f696d6167652f363062373032313166303563622e6a7067.png" style="zoom:33%;" />
 
-<img src="https://www.hualigs.cn/image/60b70212c4d8f.jpg" style="zoom:33%;" />
+<img src="http://qw5zaufiu.hn-bkt.clouddn.com/68747470733a2f2f7777772e6875616c6967732e636e2f696d6167652f363062373032313263346438662e6a7067.png" style="zoom:33%;" />
+
+<img src="http://qw5zaufiu.hn-bkt.clouddn.com/68747470733a2f2f7777772e6875616c6967732e636e2f696d6167652f363062373032313161656536622e6a7067.png" style="zoom:33%;" />
+
+<img src="http://qw5zaufiu.hn-bkt.clouddn.com/68747470733a2f2f7777772e6875616c6967732e636e2f696d6167652f363062373033333733396132662e6a7067.png" style="zoom:33%;" />
